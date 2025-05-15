@@ -1,0 +1,37 @@
+#instagram:hover{
+    box-shadow: 0 0 20px rgb(255, 0, 255);
+    border-radius: 20%;
+    transition: .3s;
+}
+#youtube:hover{
+    box-shadow: 0 0 20px rgb(255, 0, 0);
+    border-radius: 50%;
+}
+#facebook:hover{
+    box-shadow: 0 0 20px rgb(40, 12, 196);
+    border-radius: 20%;
+    transition: .3s;
+}
+#ok:hover{
+    box-shadow: 0 0 20px rgb(255, 153, 0);
+    border-radius: 20%;
+    transition: .3s;
+}
+
+@media (max-width: 513px) {
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+    .container .mission {
+        padding: 15px;
+        margin: 20px;
+    }
+    .container .mission .mission__title {
+    font-size: 15px;
+    }
+    .container .mission .mission__text {
+    font-size: 10px;
+    }
+}
